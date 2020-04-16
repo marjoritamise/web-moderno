@@ -1,5 +1,5 @@
 function tratarErroELancar(erro) {
-    // throw new Error('...')
+    // throw new Error('.....')
     // throw 10
     // throw true
     // throw 'mensagem'
@@ -11,14 +11,18 @@ function tratarErroELancar(erro) {
 }
 
 function imprimirNomeGritado(obj) {
-    try {
-        console.log(obj.name.toUpperCase() + '!!!')
-    } catch (e) {
+    try { // tentativa
+        console.log(obj.name.toUpperCase() + '!!!');
+    } catch (e) { // erro
         tratarErroELancar(e)
-    } finally {
-        console.log('final')
+    } finally { // sempre será executado
+        console.log('Final')
     }
+
 }
 
-const obj = { nome: 'Roberto' }
+const obj = {
+    name: 'Roberto'
+}
+
 imprimirNomeGritado(obj)

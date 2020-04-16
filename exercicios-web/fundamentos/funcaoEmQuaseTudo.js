@@ -1,4 +1,4 @@
-console.log(typeof Object)
+console.log(typeof Object);
 
-class Produto {}
-console.log(typeof Produto)
+class Produto{};// forma diferente de fazer funçao
+console.log(typeof Produto);

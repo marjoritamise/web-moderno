@@ -1,0 +1,20 @@
+// Tabela && (e)
+v e v -> v
+v e f -> f
+f e ? -> f
+f e f -> f
+
+// Tabela || (ou)
+v ou v -> v
+v ou f -> v
+f ou v -> v
+f ou f -> f
+
+// Tabela exclusivamente || (ou)
+v ou xor -> f
+v ou xor -> v
+f ou xor -> v
+f ou xor -> f
+
+!v -> f
+!f -> v

@@ -1,14 +1,14 @@
-// Comentário de uma linha
-console.log('Linha 1')
+// comentarios de uma linha
+console.log('Linha 1');
 
 /*
- Comentário de
- múltiplas linhas
+Comentarios de
+multiplas linhas
 */
-console.log('Linha 2')
+console.log('Linha 2');
 
 /*
- * Comentário de
- * múliplas linhas
- */
-console.log('Linha 3')
+*Comentarios de
+*multiplas linhas
+*/
+console.log('Linha 3');
